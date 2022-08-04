@@ -166,7 +166,7 @@ header {
 }
 
 .logo {
-  font-size: 44px;
+  font-size: 36px;
   padding-bottom: 7px;
 }
 
@@ -200,13 +200,9 @@ header nav ul {
   }
 }
 
-@media all and (min-width: 540px) and (max-width: 540px) {
+@media all and (min-width: 540px) and (max-width: 767px) {
   form select, form input {
     width: 67px;
-  }
-
-  .logo {
-    font-size: 44px;
   }
 }
 
@@ -239,5 +235,103 @@ header nav ul {
 @media all and (min-width: 1280px) {
   form button {
     width: 180px;
+  }
+}
+
+@media all and (min-width: 500px) {
+  .logo {
+    font-size: 44px;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 767px) {
+  form select, form input {
+    width: 50px;
+  }
+}
+
+@media all and (max-width: 379px) {
+  header nav ul li {
+    font-size: 11px;
+  }
+
+  .logo {
+    font-size: 39px;
+  }
+}
+
+@media all and (max-width: 335px) {
+form select, form input {
+  width: 130px;
+}
+}
+
+@media all and (max-width: 287px) {
+  form select, form input {
+    width: 95px;
+  }
+  }
+
+@media all and (max-width: 249px) {
+    form select, form input {
+      width: 56px;
+    }
+    }
+
+@media all and (max-width: 227px) {
+  .logo {
+    font-size: 28px;
+  }
+
+  header nav ul li {
+    font-size: 7px;
+  }
+}
+
+@media all and (max-width: 209px) {
+  form select, form input {
+    width: 36px;
+  }
+
+  form label {
+    font-size: 8px;
+  }
+  }
+
+@media all and (max-width: 183px) {
+  .logo {
+    font-size: 19px;
+  }
+
+  header nav ul li {
+    font-size: 5px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  form label {
+    font-size: 8px;
+  }
+
+  form button {
+    font-size: 9px;
+  }
+}
+
+@media all and (min-width: 700px) and (max-width: 767px) {
+  form select, form input {
+    width: 110px;
+  }
+}
+
+@media all and (max-width: 147px) {
+  header nav ul li {
+    font-size: 3px;
+  }
+
+  form div {
+    flex-direction: column;
   }
 }
