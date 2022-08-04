@@ -142,6 +142,8 @@ flex-direction: row;
 .questions {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  padding-top: 20px;
 }
 
 form div {
@@ -159,5 +161,83 @@ form div {
   align-items: center;
 }
 
+header {
+  padding-top: 10px;
+}
 
+.logo {
+  font-size: 44px;
+  padding-bottom: 7px;
+}
+
+header nav ul {
+  padding-bottom: 9px;
+}
+
+}
+
+@media all and (max-width: 480px) {
+  .nav-menu {
+    padding-right: 17px;
+  }
+}
+
+@media all and (min-width: 820px) {
+  form select, form input {
+    width: 135px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  form select, form input {
+    width: 123px;
+  }
+}
+
+@media all and (min-width: 360px) and (max-width: 360px) {
+  .logo {
+    font-size: 67px;
+  }
+}
+
+@media all and (min-width: 540px) and (max-width: 540px) {
+  form select, form input {
+    width: 67px;
+  }
+
+  .logo {
+    font-size: 44px;
+  }
+}
+
+@media all and (min-width: 280px) and (max-width: 280px) {
+  .logo {
+    font-size: 50px;
+  }
+
+  form select, form input {
+    width: 113px;
+  }
+
+  .nav-menu {
+    padding-right: 20px;
+  }
+}
+
+@media all and (min-width: 375px) and (max-width: 375px) {
+  .logo {
+    font-size: 68px;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  form select, form input {
+    width: 180px;
+  }
+}
+
+@media all and (min-width: 1280px) {
+  form button {
+    width: 180px;
+  }
 }
